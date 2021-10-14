@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="21.088">
+    <testsuite name="Elearning TC" time="21.087">
+      <testcase name="Registered as Student" classname="Elearning TC" time="21.087">
+        <failure>junit.framework.AssertionFailedError: expected:&lt;Dear manzoor mehadi&gt; but was:&lt;true&gt;&#13;
+	at junit.framework.Assert.fail(Assert.java:57)&#13;
+	at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:78)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:86)&#13;
+	at stepDef.ElearningStepDef.verify_user_is_able_to_login_successfully(ElearningStepDef.java:50)&#13;
+	at ✽.Verify user is able to login successfully(file:///C:/Users/002DO1744/Documents/WorkSpace/ProjectA/./src/main/java/CucumberProject/ElearningTC.feature:6)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

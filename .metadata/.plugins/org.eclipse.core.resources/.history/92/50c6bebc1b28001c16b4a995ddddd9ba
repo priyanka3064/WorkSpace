@@ -1,0 +1,28 @@
+package stepDef;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TCForGoogleSearch {
+	@Given("^navigate to Google search$")
+	public void navigate_to_Google_search() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^enter search keyword$")
+	public void enter_search_keyword() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click on First search$")
+	public void click_on_First_search() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+	}
+
+

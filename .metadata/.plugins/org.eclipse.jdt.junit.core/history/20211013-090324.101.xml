@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Runner" time="0.115">
+    <testsuite name="Google Search" time="0.115">
+      <testcase name="Get registered as Student" classname="Google Search" time="0.115">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepDef.ElearningStepDef.navigate_to_elearing_page(ElearningStepDef.java:13)&#13;
+	at ✽.navigate to Elearing page(file:///C:/Users/002DO1744/Documents/WorkSpace/ProjectA/./src/main/java/CucumberProject/ElearningTC.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

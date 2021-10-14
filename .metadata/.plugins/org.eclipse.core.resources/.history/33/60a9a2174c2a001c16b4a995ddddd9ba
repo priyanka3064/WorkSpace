@@ -1,0 +1,23 @@
+Feature: Google Search
+ 
+  Scenario Outline:  Get registered as Student
+    Given navigate to Elearing page
+    When Click on Sign Up link
+		And Enter valid credential in First name textbox is"<manzoor>"
+		And Enter valid credential in Last name textbox is"<mehadi>"
+		And Enter valid credential in e-mail textbox is "<pbhola1102@gmail.com>"
+		And Enter valid credential in username textbox is "<manzoor>"
+		And Enter valid credential in pass textbox is "<manzoor>"
+		And Enter valid credential in confirm password textbox is "<manzoor>"
+		And Enter valid credential in phone textbox is "<9876543210>"
+		And Selected Valid credentials from Language list box is "<English>"
+		And Click Student radio button in Profile
+		And Click on Register button
+		Then Verify user is able to login successfully 
+		
+		Examples: Student Details 
+		
+		|manzoor|
+		|mehadi|
+		|pbhola1102@gmail.com|
+		

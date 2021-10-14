@@ -1,0 +1,7 @@
+feature:Google search 
+
+Scenarios:Google search TC
+	Given navigate to Google search 
+	When I enter search keyword
+	Then click on First search 
+	and closed the browser 

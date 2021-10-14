@@ -1,0 +1,13 @@
+Feature: Elearning TC
+ 
+  Scenario Outline:   Registered as Student
+    Given navigate to Elearing page
+  	When Click on Sign Up link "<Url>"
+		And Enter valid credential"<FirstName>" and "<LastName>" in textbox 
+		Then Verify user is able to login successfully 
+		
+		Examples: Student Details 
+		|Url||FirstName||LastName|
+		|http://elearningm1.upskills.in/|| manzoor ||mehadi|       
+	
+		

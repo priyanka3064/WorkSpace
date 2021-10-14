@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Runner" time="32.315">
+    <testsuite name="Elearning TC" time="32.315">
+      <testcase name="get logged in by entering valid credentials" classname="Elearning TC" time="32.279"/>
+      <testcase name="change the password in Edit Profile page" classname="Elearning TC" time="0.036">
+        <error>java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null&#13;
+	at stepDef.ElearningStepDef.click_on_profile_edit(ElearningStepDef.java:80)&#13;
+	at ✽.click on profile edit(file:///C:/Users/002DO1744/Documents/WorkSpace/ProjectA/./src/main/java/CucumberProject/ElearningTC.feature:24)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

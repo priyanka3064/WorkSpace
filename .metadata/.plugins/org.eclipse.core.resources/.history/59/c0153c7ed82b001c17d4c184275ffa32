@@ -1,0 +1,37 @@
+package stepDef;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ElearningStepDef {
+
+	@Given("navigate to Elearing page")
+	public void navigate_to_elearing_page() {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I am in navigation method");
+	   
+	}
+
+	@When("Click on Sign Up link")
+	public void click_on_sign_up_link() {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I am in When menthod");
+	    throw new io.cucumber.java.PendingException();
+	} 
+
+	@And("Enter valid credential\"(.*)\"and \"(.*)\" in textbox")
+	public void enter_valid_credential_manzoor_and_in_textbox(String FirstName,String LastName) {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println(FirstName +LastName);
+	
+	}
+
+	@Then("Verify user is able to login successfully")
+	public void verify_user_is_able_to_login_successfully() {
+		System.out.println("I am in Then menthod");
+	    // Write code here that turns the phrase above into concrete actions
+	 
+	}
+
+}

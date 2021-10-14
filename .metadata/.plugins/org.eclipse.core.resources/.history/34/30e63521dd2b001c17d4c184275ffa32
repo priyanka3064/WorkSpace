@@ -1,0 +1,30 @@
+package stepDef;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ElearningStepDef {
+
+	@Given("navigate to Elearing page {string}")
+	public void navigate_to_elearing_page(String Url) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("Click on Sign Up link {string},{string}")
+	public void click_on_sign_up_link(String Firstname, String LastName) {
+	   
+	}
+
+
+
+	@Then("Verify user is able to login successfully")
+	public void verify_user_is_able_to_login_successfully() {
+		System.out.println("I am in Then menthod");
+	   
+	 
+	}
+
+}

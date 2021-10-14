@@ -1,0 +1,30 @@
+package stepDef;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class StepDefinationForGoogle {
+	
+	@Given("^navigate to Google search$")				
+    public void navigate_to_Google_search() throws Throwable							
+    {		
+        System.out.println("navigate to Google search");					
+    }		
+
+    @When("^I enter search keyword$")					
+    public void I_enter_search_keyword() throws Throwable 							
+    {		
+       System.out.println("I enter search keyword");					
+    }		
+
+    @Then("^click on First search$")					
+    public void click_on_First_search() throws Throwable 							
+    {    		
+        System.out.println("click on First search");					
+    }		
+
+}
+
+
+

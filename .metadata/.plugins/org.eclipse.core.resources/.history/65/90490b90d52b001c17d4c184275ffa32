@@ -1,0 +1,14 @@
+Feature: Google Search
+ 
+  Scenario Outline:  Get registered as Student
+    Given navigate to Elearing page
+    When Click on Sign Up link
+		And Enter valid credential"<FirstName>"and "LastName" in textbox 
+	
+		Then Verify user is able to login successfully 
+		
+		Examples: Student Details 
+		|Firstname||LastName|
+		| manzoor ||mehadi|       
+	
+		

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="37.696">
+    <testsuite name="Elearning TC" time="37.696">
+      <testcase name="get logged in by entering valid credentials" classname="Elearning TC" time="37.696">
+        <failure>
+          <expected>Hello manzoor mehadi and welcome</expected>
+          <actual>Hello manzoor mehadi and welcome,</actual>
+          junit.framework.ComparisonFailure: expected:&lt;...r mehadi and welcome[]&gt; but was:&lt;...r mehadi and welcome[,]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at stepDef.ElearningStepDef.verify_login_successfully(ElearningStepDef.java:70)&#13;
+	at ✽.verify login successfully(file:///C:/Users/002DO1744/Documents/WorkSpace/ProjectA/./src/main/java/CucumberProject/ElearningTC.feature:16)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Runner" time="0.191">
+    <testsuite name="Elearning TC" time="0.191">
+      <testcase name="Registered as Student" classname="Elearning TC" time="0.191">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Enter valid credential"manzoor" and "mehadi" in textbox' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Enter valid credential\"manzoor\" and {string} in textbox")
+public void enter_valid_credential_manzoor_and_in_textbox(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,37 @@
+package stepDef;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ElearningStepDef {
+	WebDriver driver;
+	@Given("navigate to Elearing page {string}")
+	public void navigate_to_elearing_page(String Url) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I am in nevigation method"+Url);
+		System.setProperty("Webdriver.chrome.driver", "")
+		driver= new ChromeDriver();
+		
+		
+	   
+	}
+
+	@When("Click on Sign Up link {string},{string}")
+	public void click_on_sign_up_link(String FirstName, String LastName) {
+		System.out.println("click_on_sign_up_link"+FirstName+LastName);
+	}
+
+
+
+	@Then("Verify user is able to login successfully")
+	public void verify_user_is_able_to_login_successfully() {
+		System.out.println("I am in Then menthod");
+	   
+	 
+	}
+
+}

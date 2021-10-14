@@ -1,0 +1,12 @@
+Feature: Elearning TC
+ 
+  Scenario Outline:   Registered as Student
+    Given navigate to Elearing page "<Url>"
+  	When Click on Sign Up link "<FirstName>","<LastName>","<e-mail>","<userName>","<pass>","<cPass>","<phoneNo>","<Language>"
+		Then Verify user is able to login successfully 
+		
+		Examples: Student Details 
+		|Url||FirstName||LastName|
+		|http://elearningm1.upskills.in/|| manzoor ||mehadi|       
+	
+		

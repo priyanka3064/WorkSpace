@@ -1,0 +1,8 @@
+Feature: Click on first link
+ 
+  Scenario: Title of your scenario
+    Given navigate to Google search
+    When  I enter search keyword
+    Then click on First search 
+   
+    

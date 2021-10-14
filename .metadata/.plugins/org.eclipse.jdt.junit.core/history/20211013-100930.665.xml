@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="ProjectA" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Runner" time="0.227">
+    <testsuite name="Elearning TC" time="0.227">
+      <testcase name="Registered as Student" classname="Elearning TC" time="0.227">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at stepDef.ElearningStepDef.navigate_to_elearing_page(ElearningStepDef.java:17)&#13;
+	at ✽.navigate to Elearing page "http://elearningm1.upskills.in/"(file:///C:/Users/002DO1744/Documents/WorkSpace/ProjectA/./src/main/java/CucumberProject/ElearningTC.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
